@@ -9,17 +9,17 @@ Implementación completa del **Modelo Geométrico Directo (MGD)**, **Jacobiano g
 ```
 robot_6gdl/
 ├── src/
-│   ├── MGD.m                  # Modelo Geométrico Directo (columna 4 de T06)
-│   ├── mi_jacobiano.m         # Jacobiano geométrico 6×6 [VL; VA]
-│   ├── cinematica_inversa.m   # Cinemática inversa — Newton-Raphson  ← MAIN
-│   ├── MGD_simbolico.m        # Derivación simbólica de T06 (Symbolic Toolbox)
+│   ├── MGD.m                  # Modelo Geométrico Directo 
+│   ├── mi_jacobiano.m         # Jacobiano geométrico 
+│   ├── cinematica_inversa.m   # Cinemática inversa 
+│   ├── MGD_simbolico.m        # Derivación simbólica de T06 
 │   └── jacobiano_simbolico.m  # Derivación simbólica del Jacobiano
 ├── tests/
-│   ├── test_MGD.m             # Verifica MGD contra Peter Corke
-│   └── test_jacobiano.m       # Verifica Jacobiano contra Peter Corke
+│   ├── test_MGD.m             # Verifica MGD con Peter Corke
+│   └── test_jacobiano.m       # Verifica Jacobiano con Peter Corke
 ├── docs/
 │   └── DH_parametros.md       # Tabla de parámetros Denavit-Hartenberg
-├── results/                   # Gráficas generadas (ignoradas por git)
+├── results/                   # Gráficas generadas 
 └── README.md
 ```
 
@@ -191,4 +191,4 @@ Error final  : 8.7e-07 m
 
 ## Autores
 
-Proyecto desarrollado para la asignatura de **Robótica** — Ingeniería en Mecatrónica.
+Manuel Bastidas -  Ingeniero Mecatronico
