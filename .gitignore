@@ -1,0 +1,18 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mlx
+*.mlapp
+slprj/
+*.slxc
+
+# Resultados generados
+results/*.png
+results/*.fig
+results/*.mat
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
